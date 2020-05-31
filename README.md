@@ -1,5 +1,9 @@
-# Spôsob implementácie jednotlivých modelov
-Každý model je implementovaný pomocou štyroch algoritmov (heuristika, FA, BA a PSO). Pre každú implementáciu modelu je vytvorený osobitný jupyter notebook.
+# Prírodou inšpirované počítanie
+
+Témou tohto projektu je optimalizovať spotrebu elektriny v mikrosieti kde sa zameriavame na maximalizovanie životnosti batérie. Na životnosť batérie  negatívne vplýva množstvo vybitej energie a hĺba vybitia, čo sa snažíme minimalizovať. Okrem predĺženia životnosti sa zameriavame aj na minimalizovanie importovanej energie z hlavnej siete. Riešime tak viacrozmernú optimalizáciu, kde si používateľ môže nastaviť váhu jednotlivých objektívnych funkcií. Najlepšie výsledky dosahuje optimalizácia pomocou Firefly algoritmu, ktorú porovnávame a inými algoritmami (PSO, BA, heuristika).
+
+# Spôsob implementácie modelu
+Model je implementovaný pomocou štyroch algoritmov (heuristika, FA, BA a PSO). Pre každú implementáciu modelu je vytvorený osobitný jupyter notebook.
 
 Jednotlivé jupyter notebooky sa delia na nasledovné bunky:
 - Bunka metód vypočítania objektívnych funkcií
